@@ -1,4 +1,4 @@
-PKG=abstract 
+PKG=abstract.out
 
 CFLAGS= -std=c++14 -Wall -Werror
 

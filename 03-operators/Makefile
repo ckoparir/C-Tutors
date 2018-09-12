@@ -1,4 +1,4 @@
-PKG=operator
+PKG=operator.out
 
 CFLAGS= -std=c++14 -Wall -Werror -g
 
