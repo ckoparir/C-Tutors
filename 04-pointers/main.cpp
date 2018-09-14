@@ -3,6 +3,7 @@
    Author: Caglar KOPARIR
    2018(C) ckoparir@gmail.com
 */
+
 #include <iostream>
 
 void Print(int repeat, const char* str,
@@ -21,5 +22,11 @@ int main()
   p = printf;
 
   Print(10, str, p);
+
+  char *ptr = str;
+
+  while(*ptr)
+    std::cout << *ptr++ << std::endl;
+
   return 0;
 }
